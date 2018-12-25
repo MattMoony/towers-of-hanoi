@@ -199,19 +199,9 @@
 
             document.getElementById('blocks_input').focus();
         };
-
-        document.onkeyup = e => {
-            switch (e.keyCode) {
-                case 32: // SPACE-BAR
-                case 13: // ENTER
-                    towers_of_hanoi(parseInt(window.prompt("Enter amount of \"disks\" (n): ")), {
-                        format_sleep_pause: parseInt(window.prompt("Enter pause time (pt): ")),
-                        piece_width: parseInt(window.prompt("Enter piece width factor (pwf): ")),
-                        piece_height: parseInt(window.prompt("Enter piece height factor (phf): "))
-                    });
-                    break;
-            }
-        };
+		
+		
+		
         var advanced_visible = false;
         document.getElementById('show_advanced').onclick = e => {
             document.getElementById('advanced_options_div').style.display = advanced_visible ? "none" : "block";
