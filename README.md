@@ -9,3 +9,5 @@ was able to help you, or you're able
 to improve my solution with brilliant
 suggestions ;).
 
+Coded in pure JavaScript, displayed on
+an HTML5 canvas.
